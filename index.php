@@ -30,7 +30,7 @@ if(isset($_POST['submit']))
     }
     else
     {
-      $msg = "Incorrect username or password";
+      $msg = "Incorrect username or password.. Please check your email and password";
     }
   }
   $conn->close();
